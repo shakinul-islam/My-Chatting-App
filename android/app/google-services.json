@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523782177281",
+    "project_id": "my-chatting-app-53cc0",
+    "storage_bucket": "my-chatting-app-53cc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523782177281:android:d2b24ced5efbb7d9057600",
+        "android_client_info": {
+          "package_name": "com.shakinul.chatting_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZDd2miJtQubtDk_FrR2a1Nl0JjqS5eYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
