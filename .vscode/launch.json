@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "chatting_app (Edge HTML)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "edge",
+      "toolArgs": ["--dart-define=FLUTTER_WEB_RENDERER=html"]
+    },
+    {
+      "name": "chatting_app (Chrome HTML)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "toolArgs": ["--dart-define=FLUTTER_WEB_RENDERER=html"]
+    }
+  ]
+}

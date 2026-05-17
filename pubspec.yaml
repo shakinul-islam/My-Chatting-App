@@ -38,20 +38,34 @@ dependencies:
   firebase_auth: ^4.20.0
   cloud_firestore: ^4.17.5
 
+  url_launcher: ^6.3.1
+  
+
   # Image Storage & Processing (Updated for Null Safety)
   
   flutter_image_compress: ^2.1.0 
-  cached_network_image: ^3.3.1 
-  image_picker: ^1.0.7 
+  cached_network_image: ^3.4.0 
+  image_picker: ^1.2.2 
 
   # Calling & Notifications
-  jitsi_meet_flutter_sdk: ^0.1.1 
+  jitsi_meet_flutter_sdk: ^12.1.3
   onesignal_flutter: ^5.1.1 
 
   # Utilities
   intl: ^0.19.0 
   provider: ^6.1.1
   cloudinary_public: ^0.23.1
+  file_picker: ^8.0.7
+  dio: ^5.9.2
+  open_filex: ^4.7.0
+  dio_smart_retry: ^7.0.1
+  universal_io: ^2.3.1
+  universal_html: ^2.3.0
+  path_provider: ^2.1.5
+  gallery_saver_plus: ^3.2.9
+  permission_handler: ^12.0.1
+  http: ^1.6.0
+  dio_web_adapter: ^2.1.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
 

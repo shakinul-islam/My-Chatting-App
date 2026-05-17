@@ -1,9 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart'; // FirebaseAuth ইম্পোর্ট করা হয়েছে
+import 'package:firebase_auth/firebase_auth.dart'; // FirebaseAuth ইম্পোর্ট করা হয়েছে
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
 import 'screens/login_screen.dart';
-import 'screens/home_page.dart'; // HomePage ইম্পোর্ট করা হয়েছে
+import 'screens/main_wrapper.dart'; // এখানে HomePage কেটে MainWrapper ইম্পোর্ট করা হয়েছে
 
 void main() async {
   // নিশ্চিত করা যে ফ্লাটার ইঞ্জিন ঠিকমতো ইনিশিয়ালাইজ হয়েছে
@@ -27,10 +27,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true, // আধুনিক ডিজাইনের জন্য
       ),
-      // এখানে আপনার দেওয়া লজিকটি সেটআপ করা হয়েছে
+      // এখানে লজিকটি আপডেট করা হয়েছে: ইউজার লগইন থাকলে সরাসরি MainWrapper-এ যাবে
       home: FirebaseAuth.instance.currentUser == null
           ? const LoginScreen()
-          : const HomePage(),
+          : const MainWrapper(),
     );
   }
 }
